@@ -36,6 +36,7 @@
 <!--- Homepagina --->
 <section class="home">
     <div class="home-text" data-aos="fade-up">
+        <h6>Beschikbaar van 8:00 t/m 17:00</h6>
         <h1>Contacteer ons! <br> ready to talk!</h1>
         <p>"Klaar om jouw vragen te beantwoorden! Neem contact op en ervaar onze toegewijde klantenservice."</p>
         <div>
