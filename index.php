@@ -12,8 +12,8 @@
 
     <!-- remix-icons link -->
     <link
-        href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-        rel="stylesheet"/>
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+            rel="stylesheet"/>
 
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -277,9 +277,6 @@
             </div>
 
             <div class="col-icon">
-                <a href="#"><i class="ri-heart-line"></i></a>
-                <a href="#"><i class="ri-eye-line"></i></a>
-                <a href="#"><i class="ri-shopping-cart-line"></i></a>
             </div>
         </div>
 
@@ -289,9 +286,6 @@
             </div>
 
             <div class="col-icon">
-                <a href="#"><i class="ri-heart-line"></i></a>
-                <a href="#"><i class="ri-eye-line"></i></a>
-                <a href="#"><i class="ri-shopping-cart-line"></i></a>
             </div>
         </div>
 
@@ -301,9 +295,6 @@
             </div>
 
             <div class="col-icon">
-                <a href="#"><i class="ri-heart-line"></i></a>
-                <a href="#"><i class="ri-eye-line"></i></a>
-                <a href="#"><i class="ri-shopping-cart-line"></i></a>
             </div>
         </div>
 
