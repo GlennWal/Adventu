@@ -42,6 +42,7 @@
         <div>
             <a href="mailto:glennmah@live.nl" class="btn">Email ons!  <i class="ri-arrow-right-line"></i></a>
             <a href="javascript:void(0)" class="btn" onclick="openPopup()">Bel ons! <i class="ri-arrow-right-line"></i> </a>
+
         </div>
     </div>
 </section>
@@ -50,19 +51,19 @@
 <!--- footer --->
 <section class="footer" data-aos="fade-down">
     <div class="footer-box">
-        <h3>Company</h3>
-        <a href="#">About</a>
-        <a href="#">Features</a>
-        <a href="#">Works</a>
-        <a href="#">Career</a>
+        <h3>Het bedrijf</h3>
+        <a href="overons.php">Over ons</a>
+        <a href="#">Winkel</a>
+        <a href="contact.php">Contact</a>
     </div>
+
 
     <div class="footer-box">
         <h3>FAQ</h3>
-        <a href="#">Account</a>
-        <a href="#">Features</a>
-        <a href="#">Works</a>
-        <a href="#">Career</a>
+        <a href="#">Levertijd</a>
+        <a href="#">Retourbeleid</a>
+        <a href="#">Je bestelling</a>
+        <a href="#">Uitverkocht</a>
     </div>
 
     <div class="footer-box">
