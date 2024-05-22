@@ -66,7 +66,7 @@
             <div class="row-in">
                 <div class="row-left">
                     <a href="#">
-                        Voeg aan winkelwagen
+                        Add to cart
                         <i class="ri-shopping-cart-fill"></i>
                     </a>
                 </div>
@@ -314,9 +314,9 @@
 <section class="footer" data-aos="fade-down">
     <div class="footer-box">
         <h3>Het bedrijf</h3>
-        <a href="#">Over ons</a>
+        <a href="overons.php">Over ons</a>
         <a href="#">Winkel</a>
-        <a href="#">Contact</a>
+        <a href="contact.php">Contact</a>
     </div>
 
 
@@ -342,6 +342,8 @@
 <!--- custom js link --->
 <script src="js/script.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init({
@@ -349,6 +351,27 @@
         duration: 1450,
     });
 
+    $(document).ready(function() {
+        $('a.addToCart').click(function(e) {
+            e.preventDefault(); // Voorkomt dat de link de pagina vernieuwt
+            // Voeg je logica toe om het item aan de winkelwagen toe te voegen
+            // Bijvoorbeeld, je zou hier een AJAX-verzoek kunnen doen naar een PHP-script dat het item aan de winkelwagen toevoegt
+
+            // Voorbeeld van een AJAX-verzoek met jQuery
+            $.ajax({
+                url: 'addToCart.php', // Verander dit naar het juiste pad van je PHP-script
+                type: 'POST',
+                data: { itemId: $(this).data('itemid') }, // Stuur het item-ID mee, als dat nodig is
+                success: function(response) {
+                    alert('Item is toegevoegd aan de winkelwagen!'); // Geef een melding weer aan de gebruiker
+                    // Voeg eventueel meer logica toe, zoals het bijwerken van de winkelwagenpictogram in de navigatiebalk
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText); // Toon eventuele foutmeldingen in de console
+                }
+            });
+        });
+    });
 
 
 </script>
