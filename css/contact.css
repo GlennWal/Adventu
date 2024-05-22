@@ -93,7 +93,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(../img/sky.jpg);
+    background: url(../img/beach.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -126,6 +126,8 @@ section{
     line-height: 33px;
     margin-bottom: 35px;
 }
+
+
 .btn{
     display: inline-block;
     padding: 14px 42px;
@@ -196,11 +198,7 @@ section{
     font-weight: 700;
     margin-bottom: 5px;
 }
-.stars a{
-    font-size: 16px;
-    color: var(--other-color);
-    margin-right: 5px;
-}
+
 .row-in{
     display: flex;
     align-items: center;
@@ -247,60 +245,39 @@ section{
     transform: scale(0.9) translateY(-6px);
 }
 
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.feature{
+    padding: 10px 14% 10px;
+}
+.feature-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 2.5rem;
+}
+.box{
+    padding: 15px 15px 15px 30px;
+    border-left: 4px solid var(--second-color);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    transition: all .6s;
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.f-icon i{
+    font-size: 33px;
 }
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
+.f-text h3{
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 5px;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.f-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: var(--second-color);
+    line-height: 33px;
 }
-
-textarea {
-    resize: vertical;
-}
-
-button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-
 .box:hover{
     transform: translateY(-4px) scale(1.02);
     border-left: 4px solid var(--text-color);
@@ -357,68 +334,31 @@ button[type="submit"]:hover {
     transform: rotate3d(0, 0, 1, 360deg) scale(1.03);
 }
 
-.newsletter-content{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2rem;
-    background: var(--text-color);
-    padding: 60px 70px;
-    border-radius: 28px;
-}
-.newsletter-text h2{
-    color: var(--bg-color);
-    font-size: 40px;
-    font-weight: 800;
-}
-.newsletter-text p{
-    font-size: var(--p-font);
-    font-weight: 500;
-    color: var(--bg-color);
-}
-.newsletter-content form{
-    display: grid;
-    grid-template-columns: 1fr 0.4fr;
-    gap: 1rem;
-}
-.newsletter-content form input:first-child{
-    border: none;
-    outline: none;
-    padding: 15px;
-    background: var(--bg-color);
-    font-size: var(--p-font);
-    color: var(--text-color);
-    border-radius: 5px;
-}
-.newsletter-content form input:last-child{
-    border-radius: 5px;
-    font-size: var(--p-font);
-    cursor: pointer;
-}
-
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, auto));
     gap: 2rem;
 }
-.footer-box{
-    display: flex;
-    flex-direction: column;
+
+.footer-box {
+    position: relative;
 }
+
 .footer-box h3{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
-.footer-box a{
-    color: var(--second-color);
-    margin-bottom: 0.8rem;
-    transition: all .50s ease;
+.footer-box a {
+    display: block;
+    margin-bottom: 5px;
 }
+
 .footer-box a:hover{
     transform: translateX(-5px);
     color: var(--text-color);
 }
+
 
 .social a{
     display: inline-flex;
@@ -438,14 +378,6 @@ button[type="submit"]:hover {
     color: var(--bg-color);
 }
 
-.copyright{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px 14% 20px;
-}
 .end-text p{
     font-size: 15px;
 }
@@ -554,12 +486,6 @@ button[type="submit"]:hover {
         width: 100%;
         max-width: 100px;
         height: auto;
-    }
-    .newsletter-content form input:first-child{
-        padding: 8px;
-    }
-    .newsletter-content form input:last-child{
-        font-size: 12px;
     }
 }
 
