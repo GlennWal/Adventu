@@ -47,7 +47,7 @@
                 <label for="geboortedatumInput" class="form-label">Geboortedatum</label>
             </div>
 
-            <a href="index.php" class="forgot-pwd">Wachtwoord vergeten?</a>
+            <a href="privacyverklaring.php" class="forgot-pwd">Privacyverklaring</a>
 
             <button type="submit" class="submit-btn">registreren</button>
             <p class="sign-up-text"> Gast? <a href="index.php">Klik hier</a></p>
@@ -124,6 +124,6 @@ VALUES(
     </div>
     </p>
 </main>
-<script src="includes/javascript.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -31,7 +31,7 @@
                 <label for="passwordInput" class="form-label">Password</label>
 
             </div>
-            <a href="" class="forgot-pwd">Wachtwoord vergeten</a>
+            <a href="privacyverklaring.php" class="forgot-pwd">Privacyverklaring</a>
 
             <button type="submit" class="submit-btn">inloggen</button>
 
@@ -81,5 +81,5 @@
 </main>
 
 </body>
-<script src="includes/javascript.js"></script>
+<script src="js/script.js"></script>
 </html>
