@@ -65,6 +65,7 @@ $stmt->close();
     </div>
 </section>
 
+<!--- Profiel --->
 <div class="profile-container">
     <h1>Mijn Profiel</h1>
     <form id="profileForm">
@@ -104,6 +105,7 @@ $stmt->close();
         <a href="overons.php">Over ons</a>
         <a href="#">Winkel</a>
         <a href="contact.php">Contact</a>
+        <a href="privacyverklaring.php">privacy verklaring</a>
     </div>
 
 
@@ -135,25 +137,6 @@ $stmt->close();
         offset: 300,
         duration: 1450,
     });
-
-    function updateProfile() {
-        var form = document.getElementById('profileForm');
-        var formData = new FormData(form);
-
-        fetch('update_profile.php', {
-            method: 'POST',
-            body: formData
-        })
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('message').innerText = data;
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-    }
-
-
 
 </script>
 
