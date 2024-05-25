@@ -399,9 +399,6 @@ section{
     .brands{
         padding: 20px 7%;
     }
-    .feature{
-        padding: 10px 7% 10px;
-    }
 }
 
 @media(max-width: 1500px){
@@ -424,15 +421,6 @@ section{
     }
     .brands{
         padding: 30px 4%;
-    }
-    .feature{
-        padding: 10px 4% 10px;
-    }
-    .feature-content{
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    }
-    .newsletter-content{
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     }
     .selling-content{
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
