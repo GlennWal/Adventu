@@ -43,54 +43,47 @@
     </div>
 </section>
 
-<?php
-require_once "database/conn.php";
+<!--- over ons --->
+<section class="overons" data-aos="fade-up">
+    <div class="container">
+        <h2>Over ons</h2>
+        <p>Welkom bij Adventu! Wij zijn een gepassioneerd team dat zich inzet om jou de beste producten en diensten te bieden. Ons doel is om jou te inspireren en te ondersteunen in jouw avonturen. Met een focus op kwaliteit en klanttevredenheid, streven we ernaar om een onvergetelijke winkelervaring te creëren.</p>
 
-$sql = "SELECT * FROM leden";
-?>
+        <h3>Onze Missie</h3>
+        <p>Bij Adventu streven we ernaar om de avontuurlijke geest in iedereen te ontketenen. Of je nu een doorgewinterde reiziger bent of net begint aan je eerste avontuur, wij zijn hier om je te voorzien van de beste uitrusting en ondersteuning die je nodig hebt om je doelen te bereiken.</p>
 
-<div class="team-member">
-    <!--        </div>-->
-    <?php
-    if ($result = $conn->query($sql)) {
-        while ($row = $result->fetch_row()) {
-            $voornaam = $row[1];
-            $tussenvoegsel = $row[2];
-            $achternaam = $row[3];
-            $email = $row[4];
-            $bio = $row[5]
+        <h3>Onze Waarden</h3>
+        <ul>
+            <li><strong>Kwaliteit:</strong> Wij bieden alleen producten van de hoogste kwaliteit, die zorgvuldig zijn geselecteerd en getest.</li>
+            <li><strong>Klanttevredenheid:</strong> Jouw tevredenheid is onze hoogste prioriteit. We streven ernaar om elke klant tevreden te stellen met uitstekende service.</li>
+            <li><strong>Duurzaamheid:</strong> We zetten ons in voor milieuvriendelijke praktijken en duurzame producten om de planeet te beschermen.</li>
+        </ul>
 
+        <h3>Ons Team</h3>
+        <p>Ons team bestaat uit ervaren professionals die gepassioneerd zijn over wat ze doen. We werken hard om ervoor te zorgen dat onze klanten tevreden zijn met elke aankoop. Hier zijn enkele van onze teamleden:</p>
 
-            ?>
-
-            <div class="info">
-                <img src="./img/n2.png" alt="Foto">
-                <h5><?php echo $voornaam; ?> <?php echo $tussenvoegsel; ?> <?php echo $achternaam; ?></h5>
-
-
-                <!--                <button onclick="showInfo(this)">Meer informatie</button>-->
-                <p><?php echo $email; ?></p>
-                <p><?php echo $bio; ?></p>
-
-                <ul class="social-icons">
-                    <li><a href="https://www.linkedin.com/janesmith" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    </li>
-                    <li><a href="https://www.twitter.com/janesmith" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <!-- Voeg hier meer social media links toe -->
-                </ul>
+        <div class="team">
+            <div class="team-member" data-aos="fade-right">
+                <img src="images/team1.jpg" alt="Team Member 1">
+                <h4>John Doe</h4>
+                <p>CEO & Founder</p>
+                <button onclick="showInfo(this)">Meer informatie</button>
+                <div class="team-info" style="display: none;">
+                    <p>John heeft meer dan 20 jaar ervaring in de outdoor-industrie en is de drijvende kracht achter Adventu. Zijn passie voor avontuur en duurzaamheid inspireert het hele team.</p>
+                </div>
             </div>
-
-
-            <?php
-        }
-    }
-    ?>
-
-</div>
-<!-- Voeg hier meer teamleden toe -->
-
-</div>
+            <div class="team-member" data-aos="fade-left">
+                <img src="images/team2.jpg" alt="Team Member 2">
+                <h4>Jane Smith</h4>
+                <p>Marketing Director</p>
+                <button onclick="showInfo(this)">Meer informatie</button>
+                <div class="team-info" style="display: none;">
+                    <p>Jane brengt een schat aan ervaring in marketing en communicatie. Ze zorgt ervoor dat onze boodschap en producten de juiste mensen bereiken.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!--- footer --->
@@ -99,7 +92,8 @@ $sql = "SELECT * FROM leden";
         <h3>Het bedrijf</h3>
         <a href="overons.php">Over ons</a>
         <a href="#">Winkel</a>
-        <a href="#">Contact</a>
+        <a href="contact.php">Contact</a>
+        <a href="privacyverklaring.php">privacy verklaring</a>
     </div>
 
 
@@ -122,7 +116,6 @@ $sql = "SELECT * FROM leden";
 
 </section>
 
-
 <!--- custom js link --->
 <script src="js/script.js"></script>
 
@@ -133,14 +126,6 @@ $sql = "SELECT * FROM leden";
         duration: 1450,
     });
 
-    function showInfo(member) {
-        var info = member.nextElementSibling;
-        if (info.style.display === "none") {
-            info.style.display = "block";
-        } else {
-            info.style.display = "none";
-        }
-    }
 
 </script>
 

@@ -42,3 +42,7 @@ function updateProfile() {
         });
 }
 
+//<!--- FAQ --->
+
+
+

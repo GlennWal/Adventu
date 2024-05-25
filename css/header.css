@@ -19,27 +19,6 @@
 
 }
 
-.dropdown-content a {
-    display: flex;
-    align-items: center;
-    padding: 8px 20px;
-    text-decoration: none;
-    color: black;
-    transition: background-color 0.3s ease;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-submenu {
-    display: none;
-}
-
 .Dropbtn {
     font-size: 16px;
     border: none;
@@ -57,3 +36,5 @@
     margin-right: 30px; /* Hier pas ik de afstand tussen het icoon en de tekst aan */
     font-size: 18px;
 }
+
+

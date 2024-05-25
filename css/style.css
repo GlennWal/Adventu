@@ -254,6 +254,7 @@ section{
 	align-items: center;
 	gap: 2.5rem;
 }
+
 .box{
 	padding: 15px 15px 15px 30px;
 	border-left: 4px solid var(--second-color);
@@ -400,7 +401,7 @@ section{
 		padding: 20px 7%;
 	}
 	.feature{
-		padding: 10px 7% 10px;
+		padding: 10px 4% 10px;
 	}
 }
 
@@ -427,12 +428,6 @@ section{
 	}
 	.feature{
 		padding: 10px 4% 10px;
-	}
-	.feature-content{
-		grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-	}
-	.newsletter-content{
-		grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 	}
 	.selling-content{
 		grid-template-columns: repeat(auto-fit, minmax(300px, auto));
@@ -534,5 +529,12 @@ section{
 .dropdown i {
 	font-size: 24px;
 	color: #333;
+}
+
+.tab-content {
+	display: none;
+}
+.tab-content.active {
+	display: block;
 }
 

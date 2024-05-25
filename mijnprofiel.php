@@ -55,13 +55,9 @@ $stmt->close();
 <!--- home --->
 <section class="home">
     <div class="home-text" data-aos="fade-up">
-        <h6>New Arrivals</h6>
-        <h1>Nu gearriveerd!<br>ready to rock</h1>
-        <p>"Ontdek onze nieuwste aanwinst: nu gearriveerd en klaar om jou te laten schitteren!"</p>
-        <a href="#" class="btn">
-            Shop now
-            <i class="ri-arrow-right-line"></i>
-        </a>
+        <h6>Mijn profiel</h6>
+        <h1>Mijn profiel!<br>Jouw wereld</h1>
+        <p>"Jouw profiel, jouw fantasie, jouw wereld!"</p>
     </div>
 </section>
 

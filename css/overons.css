@@ -21,10 +21,8 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 
 header{
@@ -200,11 +198,7 @@ section{
     font-weight: 700;
     margin-bottom: 5px;
 }
-.stars a{
-    font-size: 16px;
-    color: var(--other-color);
-    margin-right: 5px;
-}
+
 .row-in{
     display: flex;
     align-items: center;
@@ -340,50 +334,12 @@ section{
     transform: rotate3d(0, 0, 1, 360deg) scale(1.03);
 }
 
-.newsletter-content{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2rem;
-    background: var(--text-color);
-    padding: 60px 70px;
-    border-radius: 28px;
-}
-.newsletter-text h2{
-    color: var(--bg-color);
-    font-size: 40px;
-    font-weight: 800;
-}
-.newsletter-text p{
-    font-size: var(--p-font);
-    font-weight: 500;
-    color: var(--bg-color);
-}
-.newsletter-content form{
-    display: grid;
-    grid-template-columns: 1fr 0.4fr;
-    gap: 1rem;
-}
-.newsletter-content form input:first-child{
-    border: none;
-    outline: none;
-    padding: 15px;
-    background: var(--bg-color);
-    font-size: var(--p-font);
-    color: var(--text-color);
-    border-radius: 5px;
-}
-.newsletter-content form input:last-child{
-    border-radius: 5px;
-    font-size: var(--p-font);
-    cursor: pointer;
-}
-
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20px, auto));
     gap: 2rem;
 }
+
 .footer-box {
     position: relative;
 }
@@ -422,14 +378,6 @@ section{
     color: var(--bg-color);
 }
 
-.copyright{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px 14% 20px;
-}
 .end-text p{
     font-size: 15px;
 }
@@ -450,9 +398,6 @@ section{
     }
     .brands{
         padding: 20px 7%;
-    }
-    .feature{
-        padding: 10px 7% 10px;
     }
 }
 
@@ -476,15 +421,6 @@ section{
     }
     .brands{
         padding: 30px 4%;
-    }
-    .feature{
-        padding: 10px 4% 10px;
-    }
-    .feature-content{
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    }
-    .newsletter-content{
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     }
     .selling-content{
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
@@ -539,12 +475,6 @@ section{
         max-width: 100px;
         height: auto;
     }
-    .newsletter-content form input:first-child{
-        padding: 8px;
-    }
-    .newsletter-content form input:last-child{
-        font-size: 12px;
-    }
 }
 
 @media(max-width: 530px){
@@ -594,128 +524,117 @@ section{
     color: #333;
 }
 
-.profile-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
     text-align: center;
 }
 
-.profile-header {
-    margin-bottom: 20px;
+.overons {
+    background-color: #f9f9f9;
+    padding: 50px 0;
 }
 
-.profile-header h1 {
-    margin: 0;
-    font-size: 24px;
+.overons h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     color: #333;
 }
 
-.profession {
-    font-size: 18px;
-    color: #777;
-    margin-top: 5px;
+.overons p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-.profile-details {
-    text-align: left;
+.overons h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-.profile-details p {
+.overons ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.overons ul li {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
     margin: 10px 0;
-    color: #555;
 }
 
-.profile-details .bio {
-    font-style: italic;
-}
-
-.profile-details .location,
-.profile-details .email {
-    font-weight: bold;
-}
-
-.profile-details .email a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.profile-details .email a:hover {
-    text-decoration: underline;
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .team-member {
-    /*margin-top: 5%;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 1px;
-    line-height: 1.5;
-    /*background-color: red;*/
-    flex-wrap: wrap;
-}
-.info:hover{
-    background-color: deepskyblue;
-}
-
-.team-member .info {
-
-    flex-basis: 27%;
-    background-color: rgb(0,0,0,0.1);
-    /*background-color: blue;*/
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
     overflow: hidden;
-    /*padding: 9px 12px;*/
-    /*padding-left: 50px;*/
-    box-sizing: border-box;
-
-}
-p{
-    font-family: "Bell MT", cursive;
-    font-size: 15px;
-    text-align: center;
-}
-.social-icons {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s;
 }
 
-.social-icons li {
-    display: inline-block;
-    margin-right: 5px;
+.team-member:hover {
+    transform: translateY(-10px);
 }
 
-.social-icons li:last-child {
-    margin-right: 0;
+.team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.social-icons a {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    /*background-color: white;*/
+.team-member h4 {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+    color: #333;
+}
 
-    text-align: center;
-    line-height: 30px;
-    font-size: 20px;
-    text-decoration: none;
+.team-member p {
+    font-size: 1rem;
+    color: #777;
+    margin: 0 0 15px;
 }
-.info img{
-    display: flex;
-    width: 25%;
-    height: 23%;
-    margin-top: 10%;
-    margin-right: 50px;
-    padding-right: 20%;
-    padding-left: 36%;
+
+.team-member button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
 }
+
+.team-member button:hover {
+    background-color: #0056b3;
+}
+
+.team-info {
+    display: none;
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 20px 20px;
+    text-align: left;
+}}
