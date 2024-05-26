@@ -99,8 +99,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/stoel.jpg">
             </div>
-            <h3>Luxe Beach Chair</h3>
-            <h5>The Vacay Olive</h5>
+            <h3>Luxe Strand Stoel</h3>
+            <h5>Grijs</h5>
 
 
             <div class="row-in">
@@ -121,8 +121,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/stoel2.jpg">
             </div>
-            <h3>Luxe Beach Chair</h3>
-            <h5>Rio Sun Multi Stripe</h5>
+            <h3>Luxe Strand Stoel</h3>
+            <h5>Rood, Groen, Geel met witte strepen</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -143,8 +143,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/handdoek.jpg">
             </div>
-            <h3>Beach Towel 2-in-1 Tote Bag</h3>
-            <h5>Rio Sun Multi</h5>
+            <h3>Strand Handdoek 2-in-1 Draagtas</h3>
+            <h5>Blauw, Geel, Grijs multi</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -164,8 +164,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/handdoek2.jpg">
             </div>
-            <h3>Twin Beach Towel 2-in-1 Tote Bag</h3>
-            <h5>The Vacay Olive Stripe</h5>
+            <h3>Strand Handdoek 2-in-1 Draagtas</h3>
+            <h5>Grijs</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -185,8 +185,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/kussen.jpg">
             </div>
-            <h3>Inflatable Beach Pillow</h3>
-            <h5>Rio Sun Pastel Lilac</h5>
+            <h3>Opblaasbare Strandkussen</h3>
+            <h5>Paars</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -206,8 +206,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/kussen2.jpg">
             </div>
-            <h3>Inflatable Beach Pillow</h3>
-            <h5>Mango Bay Golden Mustard</h5>
+            <h3>Opblaasbare Strandkussen</h3>
+            <h5>Geel</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -227,8 +227,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/strandbed.jpg">
             </div>
-            <h3>Reclining Beach Chair</h3>
-            <h5>The Vacay Olive</h5>
+            <h3>Liggend Strandstoel</h3>
+            <h5>Grijs</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -248,8 +248,8 @@ require_once "database/conn.php";
             <div class="row-img">
                 <img src="img/strandbed2.jpg">
             </div>
-            <h3>Reclining Beach Chair</h3>
-            <h5>Mango Bay Golden Mustard Stripe</h5>
+            <h3>Liggend Strandstoel</h3>
+            <h5>Geel met witte strepen</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -264,7 +264,6 @@ require_once "database/conn.php";
                 </div>
             </div>
         </div>
-
 
     </div>
 

@@ -36,9 +36,9 @@
 <!--- home --->
 <section class="home">
     <div class="home-text" data-aos="fade-up">
-        <h6>New Arrivals</h6>
-        <h1>Nu gearriveerd!<br>ready to rock</h1>
-        <p>"Ontdek onze nieuwste aanwinst: nu gearriveerd en klaar om jou te laten schitteren!"</p>
+        <h6>Veelgestelde vragen</h6>
+        <h1>FAQ!<br>Veelgestelde vragen</h1>
+        <p>"Vind snel en eenvoudig de antwoorden die u zoekt - Uw Vragen, Onze Antwoorden bij FAQ!"</p>
 
     </div>
 </section>
@@ -84,7 +84,7 @@
     <div class="footer-box">
         <h3>Het bedrijf</h3>
         <a href="overons.php">Over ons</a>
-        <a href="#">Winkel</a>
+        <a href="shop.php">Winkel</a>
         <a href="contact.php">Contact</a>
         <a href="privacyverklaring.php">privacy verklaring</a>
     </div>
@@ -92,10 +92,10 @@
 
     <div class="footer-box">
         <h3>FAQ</h3>
-        <a href="#">Levertijd</a>
-        <a href="#">Retourbeleid</a>
-        <a href="#">Je bestelling</a>
-        <a href="#">Uitverkocht</a>
+        <a href="faq.php">Levertijd</a>
+        <a href="faq.php">Retourbeleid</a>
+        <a href="faq.php">Je bestelling</a>
+        <a href="faq.php">Product</a>
     </div>
 
     <div class="footer-box">
