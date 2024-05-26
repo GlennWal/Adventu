@@ -36,8 +36,8 @@
 <!--- home --->
 <section class="home">
     <div class="home-text" data-aos="fade-up">
-        <h6>New Arrivals</h6>
-        <h1>Nu gearriveerd!<br>ready to rock</h1>
+        <h6>Over ons</h6>
+        <h1>Wie zijn wij?<br>Het team</h1>
         <p>"Ontdek onze nieuwste aanwinst: nu gearriveerd en klaar om jou te laten schitteren!"</p>
 
     </div>
@@ -64,7 +64,7 @@
 
         <div class="team">
             <div class="team-member" data-aos="fade-right">
-                <img src="images/team1.jpg" alt="Team Member 1">
+                <img src="img/pf.png" alt="Team Member 1">
                 <h4>John Doe</h4>
                 <p>CEO & Founder</p>
                 <button onclick="showInfo(this)">Meer informatie</button>
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="team-member" data-aos="fade-left">
-                <img src="images/team2.jpg" alt="Team Member 2">
+                <img src="img/pf.png" alt="Team Member 2">
                 <h4>Jane Smith</h4>
                 <p>Marketing Director</p>
                 <button onclick="showInfo(this)">Meer informatie</button>
@@ -91,7 +91,7 @@
     <div class="footer-box">
         <h3>Het bedrijf</h3>
         <a href="overons.php">Over ons</a>
-        <a href="#">Winkel</a>
+        <a href="shop.php">Winkel</a>
         <a href="contact.php">Contact</a>
         <a href="privacyverklaring.php">privacy verklaring</a>
     </div>
@@ -99,10 +99,10 @@
 
     <div class="footer-box">
         <h3>FAQ</h3>
-        <a href="#">Levertijd</a>
-        <a href="#">Retourbeleid</a>
-        <a href="#">Je bestelling</a>
-        <a href="#">Uitverkocht</a>
+        <a href="faq.php">Levertijd</a>
+        <a href="faq.php">Retourbeleid</a>
+        <a href="faq.php">Je bestelling</a>
+        <a href="faq.php">Product</a>
     </div>
 
     <div class="footer-box">
@@ -125,7 +125,6 @@
         offset: 300,
         duration: 1450,
     });
-
 
 </script>
 

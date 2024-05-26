@@ -42,7 +42,17 @@ function updateProfile() {
         });
 }
 
-//<!--- FAQ --->
+//<!--- Over ons --->
+function showInfo(button) {
+    var infoDiv = button.nextElementSibling;
+    if (infoDiv.style.display === "none" || infoDiv.style.display === "") {
+        infoDiv.style.display = "block";
+        button.textContent = "Minder informatie";
+    } else {
+        infoDiv.style.display = "none";
+        button.textContent = "Meer informatie";
+    }
+}
 
 
 
