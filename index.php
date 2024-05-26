@@ -58,9 +58,10 @@
     <div class="n-content" data-aos="zoom-in">
         <div class="row" >
             <div class="row-img">
-                <img src="img/n1.png">
+                <img src="img/stoel.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Luxe Beach Chair</h3>
+            <h5>The Vacay Olive</h5>
 
 
             <div class="row-in">
@@ -72,16 +73,17 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€50.00</h6>
+                    <h6>€140.00</h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n2.png">
+                <img src="img/stoel2.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Luxe Beach Chair</h3>
+            <h5>Rio Sun Multi Stripe</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -92,7 +94,7 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€40.00</h6>
+                    <h6>€140.00</h6>
 
                 </div>
             </div>
@@ -100,9 +102,10 @@
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n3.png">
+                <img src="img/handdoek.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Beach Towel 2-in-1 Tote Bag</h3>
+            <h5>Rio Sun Multi</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -113,16 +116,17 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€80.00</h6>
+                    <h6>€75.00</h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n4.png">
+                <img src="img/handdoek2.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Twin Beach Towel 2-in-1 Tote Bag</h3>
+            <h5>The Vacay Olive Stripe</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -133,16 +137,17 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€60.00</h6>
+                    <h6>€95.00</h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n5.png">
+                <img src="img/kussen.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Inflatable Beach Pillow</h3>
+            <h5>Rio Sun Pastel Lilac</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -153,16 +158,17 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€25.00</h6>
+                    <h6>€29.00</h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n6.png">
+                <img src="img/kussen2.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Inflatable Beach Pillow</h3>
+            <h5>Mango Bay Golden Mustard</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -173,16 +179,17 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€30.00</h6>
+                    <h6>€29.00</h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n7.png">
+                <img src="img/strandbed.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Reclining Beach Chair</h3>
+            <h5>The Vacay Olive</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -193,16 +200,17 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€50.00</h6>
+                    <h6>€110.00</h6>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="row-img">
-                <img src="img/n8.png">
+                <img src="img/strandbed2.jpg">
             </div>
-            <h3>Voorbeeld!</h3>
+            <h3>Reclining Beach Chair</h3>
+            <h5>Mango Bay Golden Mustard Stripe</h5>
 
             <div class="row-in">
                 <div class="row-left">
@@ -213,7 +221,7 @@
                 </div>
 
                 <div class="row-right">
-                    <h6>€150.00</h6>
+                    <h6>€110.00</h6>
                 </div>
             </div>
         </div>
@@ -273,7 +281,7 @@
     <div class="selling-content" data-aos="zoom-in-up">
         <div class="col">
             <div class="col-img">
-                <img src="img/n1.png">
+                <img src="img/stoel.jpg">
             </div>
 
             <div class="col-icon">
@@ -282,7 +290,7 @@
 
         <div class="col">
             <div class="col-img">
-                <img src="img/n4.png">
+                <img src="img/kussen.jpg">
             </div>
 
             <div class="col-icon">
@@ -291,7 +299,7 @@
 
         <div class="col">
             <div class="col-img">
-                <img src="img/n7.png">
+                <img src="img/strandbed2.jpg">
             </div>
 
             <div class="col-icon">
@@ -306,7 +314,7 @@
     <div class="footer-box">
         <h3>Het bedrijf</h3>
         <a href="overons.php">Over ons</a>
-        <a href="#">Winkel</a>
+        <a href="shop.php">Winkel</a>
         <a href="contact.php">Contact</a>
         <a href="privacyverklaring.php">privacy verklaring</a>
     </div>
@@ -314,10 +322,10 @@
 
     <div class="footer-box">
         <h3>FAQ</h3>
-        <a href="#">Levertijd</a>
-        <a href="#">Retourbeleid</a>
-        <a href="#">Je bestelling</a>
-        <a href="#">Uitverkocht</a>
+        <a href="faq.php">Levertijd</a>
+        <a href="faq.php">Retourbeleid</a>
+        <a href="faq.php">Je bestelling</a>
+        <a href="faq.php">Product</a>
     </div>
 
     <div class="footer-box">

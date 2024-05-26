@@ -99,7 +99,7 @@ $stmt->close();
     <div class="footer-box">
         <h3>Het bedrijf</h3>
         <a href="overons.php">Over ons</a>
-        <a href="#">Winkel</a>
+        <a href="shop.php">Winkel</a>
         <a href="contact.php">Contact</a>
         <a href="privacyverklaring.php">privacy verklaring</a>
     </div>
@@ -107,10 +107,10 @@ $stmt->close();
 
     <div class="footer-box">
         <h3>FAQ</h3>
-        <a href="#">Levertijd</a>
-        <a href="#">Retourbeleid</a>
-        <a href="#">Je bestelling</a>
-        <a href="#">Uitverkocht</a>
+        <a href="faq.php">Levertijd</a>
+        <a href="faq.php">Retourbeleid</a>
+        <a href="faq.php">Je bestelling</a>
+        <a href="faq.php">Product</a>
     </div>
 
     <div class="footer-box">
