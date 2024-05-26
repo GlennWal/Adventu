@@ -14,8 +14,6 @@ if (session_status() == PHP_SESSION_NONE) {
 <ul class="navlist">
     <li><a href="./shop.php">Shop</a></li>
     <li><a href="./contact.php">Contact</a></li>
-    <li><a href="./overons.php">Over ons</a></li>
-    <li><a href="./faq.php">FAQ</a></li>
 </ul>
 
 <?php if (isset($_SESSION["user"])) { ?>

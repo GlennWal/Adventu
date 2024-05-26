@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adventu</title>
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/winkelwagen.css">
 
     <!-- box-icons link -->
     <link rel="stylesheet"
@@ -36,9 +36,9 @@
 <!--- Homepagina --->
 <section class="home">
     <div class="home-text" data-aos="fade-up">
-        <h6>New Arrivals</h6>
-        <h1>Nu gearriveerd! <br> ready to rock</h1>
-        <p>"Ontdek onze nieuwste aanwinst: nu gearriveerd en klaar om jou te laten schitteren!"</p>
+        <h6>Winkelwagen</h6>
+        <h1>Jouw Winkelwagen <br> ready to shop</h1>
+        <p>"De winkelwagen: jouw betrouwbare partner voor moeiteloos winkelen!"</p>
         <a href="#" class="btn">
             Shop now
             <i class="ri-arrow-right-line"></i>

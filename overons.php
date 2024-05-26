@@ -38,7 +38,7 @@
     <div class="home-text" data-aos="fade-up">
         <h6>Over ons</h6>
         <h1>Wie zijn wij?<br>Het team</h1>
-        <p>"Ontdek onze nieuwste aanwinst: nu gearriveerd en klaar om jou te laten schitteren!"</p>
+        <p>"Samen Sterker, Samen Succesvoller"</p>
 
     </div>
 </section>
@@ -65,7 +65,7 @@
         <div class="team">
             <div class="team-member" data-aos="fade-right">
                 <img src="img/pf.png" alt="Team Member 1">
-                <h4>John Doe</h4>
+                <h4>Glenn Wal</h4>
                 <p>CEO & Founder</p>
                 <button onclick="showInfo(this)">Meer informatie</button>
                 <div class="team-info" style="display: none;">
@@ -74,7 +74,7 @@
             </div>
             <div class="team-member" data-aos="fade-left">
                 <img src="img/pf.png" alt="Team Member 2">
-                <h4>Jane Smith</h4>
+                <h4>Glenn Wal</h4>
                 <p>Marketing Director</p>
                 <button onclick="showInfo(this)">Meer informatie</button>
                 <div class="team-info" style="display: none;">
