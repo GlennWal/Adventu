@@ -69,7 +69,7 @@
                 <p>CEO & Founder</p>
                 <button onclick="showInfo(this)">Meer informatie</button>
                 <div class="team-info" style="display: none;">
-                    <p>John heeft meer dan 20 jaar ervaring in de outdoor-industrie en is de drijvende kracht achter Adventu. Zijn passie voor avontuur en duurzaamheid inspireert het hele team.</p>
+                    <p>Glenn heeft meer dan 20 jaar ervaring in de outdoor-industrie en is de drijvende kracht achter Adventu. Zijn passie voor avontuur en duurzaamheid inspireert het hele team.</p>
                 </div>
             </div>
             <div class="team-member" data-aos="fade-left">
@@ -78,7 +78,7 @@
                 <p>Marketing Director</p>
                 <button onclick="showInfo(this)">Meer informatie</button>
                 <div class="team-info" style="display: none;">
-                    <p>Jane brengt een schat aan ervaring in marketing en communicatie. Ze zorgt ervoor dat onze boodschap en producten de juiste mensen bereiken.</p>
+                    <p>Glenn brengt een schat aan ervaring in marketing en communicatie. Ze zorgt ervoor dat onze boodschap en producten de juiste mensen bereiken.</p>
                 </div>
             </div>
         </div>
